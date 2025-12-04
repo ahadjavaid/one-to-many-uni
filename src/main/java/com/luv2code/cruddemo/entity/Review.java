@@ -14,12 +14,10 @@ public class Review {
     @Column(name = "comment")
     private String comment;
 
-
+    public Review() {}
 
     public Review(String comment) {
-
         this.comment = comment;
-
     }
 
     public int getId() {
